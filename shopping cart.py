@@ -1,0 +1,6 @@
+print("*"*25)
+print("*** WELCOME TO OUR DUMMY STORE ***")
+item=input("What are you buying? ")
+price=input(f"What is the price of the {item} ")
+quantity=input(f"How many of {item}(s) you are buying? ")
+print(f"Subtotal: ${float(price)* float(quantity)} ")
