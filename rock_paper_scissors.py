@@ -89,8 +89,6 @@ elif user =='scissors' and random_number == 2 :
     print("You won, computer lost")
 
 
-
-
 if user =='rock' and random_number == 3:
     # Rock
     print(rock)
