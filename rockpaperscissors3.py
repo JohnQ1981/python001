@@ -1,6 +1,6 @@
-from random import randint  
 print('*'*30)
 print('*** WELCOME TO ROCK, PAPER AND SCISSORS GAME')
+from random import randint  
 num = randint(1,3)
 
 # Rock
@@ -38,7 +38,9 @@ elif num == 2:
 else :
     comp_move = scissors
 
-user=input("Enter Your Move as : rock,paper, or scissors \n")
+print(num)
+
+user = input("Enter Your Move as : rock,paper, or scissors \n")
 if user == 'rock' :
     user_move = rock
 elif user == 'paper':
@@ -48,5 +50,32 @@ elif user == 'scissors':
 else:
     user=input("Enter Your Move as : rock,paper, or scissors \n")
 
-print(user_move)
-print(comp_move)
+
+if (user_move == rock  and comp_move == rock) or(user_move == paper  and comp_move == paper) or (user_move == scissors  and comp_move == scissors):
+    print(user_move)
+    print(comp_move)
+    print('it is tie')
+elif user_move == rock and comp_move == scissors:
+    print(user_move)
+    print(comp_move)
+    print('You Won')
+elif user_move == rock and comp_move == paper:
+    print(user_move)
+    print(comp_move)
+    print('You Won')
+elif user_move == paper and comp_move == rock:
+    print(user_move)
+    print(comp_move)
+    print('You Won')
+elif user_move == paper and comp_move == scissors:
+    print(user_move)
+    print(comp_move)
+    print('You Lost')
+elif user_move == scissors and comp_move == rock:
+    print(user_move)
+    print(comp_move)
+    print('You Lost')
+elif user_move == scissors and comp_move == paper:
+    print(user_move)
+    print(comp_move)
+    print('You Won')
