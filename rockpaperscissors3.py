@@ -52,30 +52,30 @@ else:
 
 
 if (user_move == rock  and comp_move == rock) or(user_move == paper  and comp_move == paper) or (user_move == scissors  and comp_move == scissors):
-    print(user_move)
-    print(comp_move)
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
     print('it is tie')
 elif user_move == rock and comp_move == scissors:
-    print(user_move)
-    print(comp_move)
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
     print('You Won')
 elif user_move == rock and comp_move == paper:
-    print(user_move)
-    print(comp_move)
-    print('You Won')
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
+    print('You Lost')
 elif user_move == paper and comp_move == rock:
-    print(user_move)
-    print(comp_move)
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
     print('You Won')
 elif user_move == paper and comp_move == scissors:
-    print(user_move)
-    print(comp_move)
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
     print('You Lost')
 elif user_move == scissors and comp_move == rock:
-    print(user_move)
-    print(comp_move)
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
     print('You Lost')
 elif user_move == scissors and comp_move == paper:
-    print(user_move)
-    print(comp_move)
+    print(f"Your Move is {user_move} ")
+    print(f"Computer's Move {comp_move}")
     print('You Won')
