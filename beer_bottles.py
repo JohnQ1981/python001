@@ -18,6 +18,8 @@ while count > 0 :
         print(f"{count} bottles of beer on the wall")
         print(f"{count} bottles of beer")
         print(f"Take one down, pass it around, {count-1} bottle of beer on the wall")
+        print("*"*40)
+        print("-"*40)
     else:
         print(f"{count} bottles of beer on the wall")
         print(f"{count} bottles of beer")
