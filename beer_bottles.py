@@ -1,11 +1,24 @@
 for c in range(100,0,-1):
-    print(f"{c} bottles of beer on the wall")
-    print(f"{c} bottles of beer")
-    if c ==1:
-        print(f"Take one down, pass it around, no bottles of beer on the wall")
+    if c == 1:
+        print(f"{c} bottle of beer on the wall")
+        print(f"{c} bottle of beer")
+        #print(f"Take one down, pass it around, {count-1} bottles of beer on the wall")
+        print(f"Take one down, pass it around, no bottle of beer on the wall")
+    elif c == 2:
+        print(f"{c} bottles of beer on the wall")
+        print(f"{c} bottles of beer")
+        print(f"Take one down, pass it around, {c-1} bottle of beer on the wall")
+        print("*"*40)
+        
     else:
+        print(f"{c} bottles of beer on the wall")
+        print(f"{c} bottles of beer")
         print(f"Take one down, pass it around, {c-1} bottles of beer on the wall")
         print("*"*40)
+        
+
+
+
 
 count = 100
 while count > 0 :
