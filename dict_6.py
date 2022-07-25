@@ -1,6 +1,3 @@
-from tkinter.filedialog import test
-
-
 test_scores = {
     'Ali': 98,
     'veli': 85,
@@ -28,4 +25,4 @@ print("Above are items ", '*'*40)
 
 for key, value in test_scores.items():
     print(key, value)
-print("Above are Unpacked ", '*'*40)
+print("Above are Unpacked keys and values", '*'*40)
