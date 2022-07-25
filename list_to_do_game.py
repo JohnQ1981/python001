@@ -19,7 +19,7 @@ Type 'q' to quit
 To add a todo to the list, type it and hit enter
 To complete a todo enter its number''')
     elif user =="q" or user =="Q":
-        print(f"Todo list is:{todo}\nand Today you have completed {done}")
+        print(f"Your Todo list is:{todo}\nand Today you have completed {done}")
         break
     elif (user !="q" or user !="Q") and (not user.strip().isdigit()):
     
