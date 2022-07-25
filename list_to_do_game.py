@@ -25,7 +25,7 @@ To complete a todo enter its number''')
     
          todo.append(user)
         
-    elif int(user) in range(0,len(todo)):
+    elif int(user)-1 in range(0,len(todo)):
         done.append(todo.pop(int(user)-1))
         print(f"You have completed:{done}")
  
