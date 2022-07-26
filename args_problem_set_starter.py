@@ -13,12 +13,12 @@ def pickle(*args):
         else:
             return True
     return False
-print(pickle(1,2,'g','pickle','apple'))
+print(pickle(1,2,'g','spickle','apple'))
 
 def pickles(*args):
     return 'pickle' in args
 
-print(pickles(1,2,'g','spickle','apple'))
+print(pickles(1,2,'g','pickle','apple'))
 
     
     
