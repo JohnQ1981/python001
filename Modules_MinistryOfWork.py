@@ -1,6 +1,9 @@
 from textblob import TextBlob
 import pyttsx3
 engine = pyttsx3.init()
+import art
+#print(art.text2art("welcome to ministry of work"))
+print(art.text2art("Hello", font='block'))
 engine.say("Hello John, Employee number 256. we hope you had a great day of work. It's time to submit your employee wellness statement")
 engine.runAndWait()
 blob = TextBlob("I really hate you ugly guy!")
@@ -21,7 +24,7 @@ print(user.sentiment_assessments)
 while user.sentiment.polarity < 0.5:
     #print("Try to be more positive please :")
     engine.say("""Hey John, Employee number 256, that was not a very positive employee wellness statement. Please 
-    Try to be more positive please. we know how much you love working here. :""")
+    Try to be more positive. we know how much you love working here. :""")
     engine.runAndWait()
     phrase = input(">")
     user = TextBlob(phrase)
