@@ -4,6 +4,7 @@ test_scores = {
     'Celi': 75,
     'Deli': 79,
     "kali": 88,
+    "Gali": 45,
     'Hali':97
 }
 #find max
