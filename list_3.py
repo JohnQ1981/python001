@@ -12,7 +12,7 @@ langs = ['Python','C', 'JavaScript','c']
 langs.pop() # pop() removes and returns the last element from the list
 print(langs)
 langs.extend('JAVA')
-langs.insert(-1,'JAVA')
+langs.insert(-3,'JAVA')
 langs.append('Ruby')
 print(langs)
 # the del Statement (it is not a method) can be used to delete an item from a specific index  in  a list
